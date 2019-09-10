@@ -7,6 +7,12 @@ namespace Hello_World
         public static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine("Enter your name: ");
+
+            String name = Console.ReadLine();
+
+            Console.WriteLine("Hello " + name +"!");
+            //Console.ReadKey(); //not needed on macOS but is required on Windows
         }
     }
 }
